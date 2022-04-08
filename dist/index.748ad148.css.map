@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["css/styles.css"],"sourcesContent":["body {\n    background: gold;\n}\n\nh1 {\n    color: hotpink;\n    font-family: cursive;\n}"],"names":[],"version":3,"file":"index.748ad148.css.map","sourceRoot":"/__parcel_source_root/"}
