@@ -135,4 +135,31 @@ a {
   }
 }
 
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list--inline .list__item {
+  margin-right: 2rem;
+  display: inline-block;
+}
+
+.list--tick {
+  color: var(--color-headings);
+  padding-left: 3rem;
+  list-style-image: url("tick.678a6c7b.svg");
+}
+
+.list--tick .list__item {
+  margin-bottom: 1rem;
+  padding-left: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    padding-left: 0;
+  }
+}
+
 /*# sourceMappingURL=index.748ad148.css.map */
