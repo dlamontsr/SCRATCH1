@@ -148,7 +148,7 @@ a {
 .list--tick {
   color: var(--color-headings);
   padding-left: 3rem;
-  list-style-image: url("tick.678a6c7b.svg");
+  list-style-image: url("tick.30d63d02.js");
 }
 
 .list--tick .list__item {
@@ -160,6 +160,38 @@ a {
   .list--tick .list__item {
     padding-left: 0;
   }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon--small {
+  width: 30px;
+  height: 30px;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon--white {
+  fill: #fff;
+}
+
+.icon-container {
+  width: 64px;
+  height: 64px;
+  background: #f3f9fa;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.icon-container--accent {
+  background: var(--color-accent);
 }
 
 /*# sourceMappingURL=index.748ad148.css.map */
