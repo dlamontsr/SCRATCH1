@@ -282,6 +282,23 @@ a {
   color: #cdcbd7;
 }
 
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+}
+
+.input-group .input {
+  width: 0;
+  border: none;
+  flex-grow: 1;
+  padding: 1.5rem 2rem;
+}
+
+.input-group .btn {
+  margin: 4px;
+}
+
 @media screen and (min-width: 1024px) {
   .input {
     font-size: 1.5rem;
